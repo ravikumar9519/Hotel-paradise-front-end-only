@@ -1,0 +1,52 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.htl-sect{
+  background-image: url(hotel.jpg);
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;/*view put height*/
+  position: relative;
+  text-align: center;
+}
+.htl-text{
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.book-button,.Know-button{
+  background-color: aqua;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  text-decoration: solid;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.facilities{
+  text-align: center;
+}
+.facilities ul{
+  display: inline-block;
+  /* font-weight: 400; */
+  text-align: left;
+  margin-top: 10px;
+}
+.about-us{
+  float: left;
+  width: 50%;
+  margin: 10px 10px;
+  text-align: center;
+}
+.about-sect > h1{
+  text-align: center;
+  margin:10px 10px ;
+  text-decoration: underline;
+}
